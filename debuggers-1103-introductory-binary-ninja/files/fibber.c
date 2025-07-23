@@ -16,6 +16,12 @@ unsigned int fibbonacci(unsigned int n)
 
 int main()
 {
+    // waiting for debugger to attach
+
+    printf("Press Enter to continue...\n");
+    getchar();
+
+    
     unsigned int n = 10;
 
     printf("First %d elements of the Fibbonacci sequence: ", n);
